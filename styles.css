@@ -15,7 +15,19 @@ text-align: end;
 
 
 .foto {
+    img {
+        width: 300px; /* Define a largura da imagem */
+        height: auto; /* A altura é ajustada automaticamente para manter a proporção */}
+        position: relative;
+        width: 100%;
+        height: 400px; /* Defina a altura do contêiner */
+      }
+      
+      img {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
 
-align-items: right;
-
-}
+    }
+    
