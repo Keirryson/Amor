@@ -6,9 +6,16 @@
     font-size: 24px; /* Tamanho da fonte */
 }
 
-.Ola{
+.Ola {
 
 font-size: 20px;
 text-align: end;
+
+}
+
+
+.foto {
+
+align-items: right;
 
 }
